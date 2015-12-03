@@ -11,17 +11,30 @@
 @implementation DView
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    NSLog(@"hitTest withEvent ---D_View---");
+    NSLog(@"进入D_View---hitTest withEvent ---");
     UIView * view = [super hitTest:point withEvent:event];
-    NSLog(@"hitTest withEvent ---D_View--- %@",view);
+    NSLog(@"D_View---hitTest withEvent --- %@",view);
     return view;
 }
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(nullable UIEvent *)event {
-    NSLog(@"pointInside withEvent ---D_view---");
+    NSLog(@"进入D_view---pointInside withEvent ---");
     BOOL isInside = [super pointInside:point withEvent:event];
-    NSLog(@"pointInside withEvent ---D_view--- %d",isInside);
+    NSLog(@"离开D_view---pointInside withEvent --- isInside:%d",isInside);
     return isInside;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"D_touchesBegan");
+}
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+    NSLog(@"D_touchesMoved");
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+    NSLog(@"D_touchesEnded");
 }
 
 @end

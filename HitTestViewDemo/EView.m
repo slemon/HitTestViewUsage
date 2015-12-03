@@ -11,17 +11,31 @@
 @implementation EView
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    NSLog(@"hitTest withEvent ---E_View---");
+    NSLog(@"进入E_View---hitTest withEvent ---");
     UIView * view = [super hitTest:point withEvent:event];
-    NSLog(@"hitTest withEvent ---E_View--- %@",view);
+    NSLog(@"离开E_View---hitTest withEvent --- %@",view);
     return view;
 }
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(nullable UIEvent *)event {
-    NSLog(@"pointInside withEvent ---E_view---");
+    NSLog(@"进入E_view---pointInside withEvent ---");
     BOOL isInside = [super pointInside:point withEvent:event];
-    NSLog(@"pointInside withEvent ---E_view--- %d",isInside);
+    NSLog(@"离开E_view---pointInside withEvent --- isInside:%d",isInside);
     return isInside;
 }
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"E_touchesBegan");
+}
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+    NSLog(@"E_touchesMoved");
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+    NSLog(@"E_touchesEnded");
+}
+
 
 @end
