@@ -11,9 +11,7 @@
 @implementation HitButton
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(nullable UIEvent *)event {
-    
     return CGRectContainsPoint(HitTestingBounds(self.bounds, self.minimumHitTestWidth, self.minimumHitTestHeight), point);
-
 }
 
 @end

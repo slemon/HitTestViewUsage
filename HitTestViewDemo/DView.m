@@ -13,14 +13,14 @@
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     NSLog(@"进入D_View---hitTest withEvent ---");
     UIView * view = [super hitTest:point withEvent:event];
-    NSLog(@"D_View---hitTest withEvent --- %@",view);
+    NSLog(@"离开D_View---hitTest withEvent ---hitTestView:%@",view);
     return view;
 }
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(nullable UIEvent *)event {
-    NSLog(@"进入D_view---pointInside withEvent ---");
+    NSLog(@"D_view---pointInside withEvent ---");
     BOOL isInside = [super pointInside:point withEvent:event];
-    NSLog(@"离开D_view---pointInside withEvent --- isInside:%d",isInside);
+    NSLog(@"D_view---pointInside withEvent --- isInside:%d",isInside);
     return isInside;
 }
 

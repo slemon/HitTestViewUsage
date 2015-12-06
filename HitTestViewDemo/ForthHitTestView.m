@@ -39,7 +39,7 @@ static const NSInteger PosterW = 150;
     
     _posterArray = NSMutableArray.new;
     
-    NSInteger posterCount = 5;
+    NSInteger posterCount = 10;
     CGFloat posterGap = 0;
     for (int i = 0; i < posterCount; i ++) {
         UIImageView * posterImageView = [[UIImageView alloc] init];
