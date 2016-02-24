@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "UIButton+HitAreaExpand.h"
 
 @interface SecondViewController ()
 
@@ -19,7 +20,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 100, 20, 20);
+    button.backgroundColor = [UIColor yellowColor];
+    [button addTarget:self action:@selector(testButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    button.minHitTestWidth = 80;
+    button.minHitTestHeight = 80;
 }
+
+- (void)testButtonAction:(UIButton *)button {
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

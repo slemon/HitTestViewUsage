@@ -7,62 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F4819A61C0AE63400EB3A02 /* HitTestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4819A51C0AE63400EB3A02 /* HitTestTool.m */; };
-		9F4819AB1C0AEF7300EB3A02 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4819AA1C0AEF7300EB3A02 /* ThirdViewController.m */; };
-		9F4819AE1C0AF09000EB3A02 /* HitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4819AD1C0AF09000EB3A02 /* HitTestView.m */; };
-		9F4819B21C0AF66300EB3A02 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4819B11C0AF66300EB3A02 /* ForthViewController.m */; };
-		9F4819B51C0AF6D000EB3A02 /* ForthHitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4819B41C0AF6D000EB3A02 /* ForthHitTestView.m */; };
 		9FFBEA731C04B0EC003BA382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA721C04B0EC003BA382 /* main.m */; };
 		9FFBEA761C04B0EC003BA382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA751C04B0EC003BA382 /* AppDelegate.m */; };
-		9FFBEA791C04B0EC003BA382 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA781C04B0EC003BA382 /* ViewController.m */; };
 		9FFBEA7C1C04B0EC003BA382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFBEA7A1C04B0EC003BA382 /* Main.storyboard */; };
 		9FFBEA7E1C04B0EC003BA382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFBEA7D1C04B0EC003BA382 /* Assets.xcassets */; };
 		9FFBEA811C04B0EC003BA382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFBEA7F1C04B0EC003BA382 /* LaunchScreen.storyboard */; };
-		9FFBEA8A1C04B133003BA382 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA891C04B133003BA382 /* AView.m */; };
-		9FFBEA8D1C04B143003BA382 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA8C1C04B143003BA382 /* BView.m */; };
-		9FFBEA901C04B150003BA382 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA8F1C04B150003BA382 /* CView.m */; };
-		9FFBEA931C04B162003BA382 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA921C04B162003BA382 /* DView.m */; };
-		9FFBEA961C04B171003BA382 /* EView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA951C04B171003BA382 /* EView.m */; };
-		9FFBEA991C052D6F003BA382 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA981C052D6F003BA382 /* SecondViewController.m */; };
-		9FFBEA9C1C052DD8003BA382 /* HitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBEA9B1C052DD8003BA382 /* HitButton.m */; };
+		F464B41D1C7D556400371330 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4011C7D556400371330 /* AView.m */; };
+		F464B41E1C7D556400371330 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4031C7D556400371330 /* BView.m */; };
+		F464B41F1C7D556400371330 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4051C7D556400371330 /* CView.m */; };
+		F464B4201C7D556400371330 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4071C7D556400371330 /* DView.m */; };
+		F464B4211C7D556400371330 /* EView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4091C7D556400371330 /* EView.m */; };
+		F464B4221C7D556400371330 /* ForthHitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B40B1C7D556400371330 /* ForthHitTestView.m */; };
+		F464B4231C7D556400371330 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B40D1C7D556400371330 /* ForthViewController.m */; };
+		F464B4241C7D556400371330 /* HitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B40F1C7D556400371330 /* HitButton.m */; };
+		F464B4251C7D556400371330 /* HitTestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4121C7D556400371330 /* HitTestTool.m */; };
+		F464B4261C7D556400371330 /* HitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4141C7D556400371330 /* HitTestView.m */; };
+		F464B4271C7D556400371330 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4161C7D556400371330 /* SecondViewController.m */; };
+		F464B4281C7D556400371330 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B4181C7D556400371330 /* ThirdViewController.m */; };
+		F464B4291C7D556400371330 /* UIButton+HitAreaExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B41A1C7D556400371330 /* UIButton+HitAreaExpand.m */; };
+		F464B42A1C7D556400371330 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B41C1C7D556400371330 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F4819A11C0AE55600EB3A02 /* HitTestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestProtocol.h; sourceTree = "<group>"; };
-		9F4819A41C0AE63400EB3A02 /* HitTestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestTool.h; sourceTree = "<group>"; };
-		9F4819A51C0AE63400EB3A02 /* HitTestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTestTool.m; sourceTree = "<group>"; };
-		9F4819A91C0AEF7300EB3A02 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		9F4819AA1C0AEF7300EB3A02 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		9F4819AC1C0AF09000EB3A02 /* HitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestView.h; sourceTree = "<group>"; };
-		9F4819AD1C0AF09000EB3A02 /* HitTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTestView.m; sourceTree = "<group>"; };
-		9F4819B01C0AF66300EB3A02 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
-		9F4819B11C0AF66300EB3A02 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
-		9F4819B31C0AF6D000EB3A02 /* ForthHitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthHitTestView.h; sourceTree = "<group>"; };
-		9F4819B41C0AF6D000EB3A02 /* ForthHitTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthHitTestView.m; sourceTree = "<group>"; };
 		9FFBEA6E1C04B0EC003BA382 /* HitTestViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitTestViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFBEA721C04B0EC003BA382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9FFBEA741C04B0EC003BA382 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FFBEA751C04B0EC003BA382 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9FFBEA771C04B0EC003BA382 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9FFBEA781C04B0EC003BA382 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9FFBEA7B1C04B0EC003BA382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FFBEA7D1C04B0EC003BA382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FFBEA801C04B0EC003BA382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFBEA821C04B0EC003BA382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FFBEA881C04B133003BA382 /* AView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
-		9FFBEA891C04B133003BA382 /* AView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
-		9FFBEA8B1C04B143003BA382 /* BView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
-		9FFBEA8C1C04B143003BA382 /* BView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
-		9FFBEA8E1C04B150003BA382 /* CView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
-		9FFBEA8F1C04B150003BA382 /* CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
-		9FFBEA911C04B162003BA382 /* DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
-		9FFBEA921C04B162003BA382 /* DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
-		9FFBEA941C04B171003BA382 /* EView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EView.h; sourceTree = "<group>"; };
-		9FFBEA951C04B171003BA382 /* EView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EView.m; sourceTree = "<group>"; };
-		9FFBEA971C052D6F003BA382 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9FFBEA981C052D6F003BA382 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		9FFBEA9A1C052DD8003BA382 /* HitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitButton.h; sourceTree = "<group>"; };
-		9FFBEA9B1C052DD8003BA382 /* HitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitButton.m; sourceTree = "<group>"; };
+		F464B4001C7D556400371330 /* AView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		F464B4011C7D556400371330 /* AView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		F464B4021C7D556400371330 /* BView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		F464B4031C7D556400371330 /* BView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		F464B4041C7D556400371330 /* CView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		F464B4051C7D556400371330 /* CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		F464B4061C7D556400371330 /* DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		F464B4071C7D556400371330 /* DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		F464B4081C7D556400371330 /* EView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EView.h; sourceTree = "<group>"; };
+		F464B4091C7D556400371330 /* EView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EView.m; sourceTree = "<group>"; };
+		F464B40A1C7D556400371330 /* ForthHitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthHitTestView.h; sourceTree = "<group>"; };
+		F464B40B1C7D556400371330 /* ForthHitTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthHitTestView.m; sourceTree = "<group>"; };
+		F464B40C1C7D556400371330 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		F464B40D1C7D556400371330 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		F464B40E1C7D556400371330 /* HitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitButton.h; sourceTree = "<group>"; };
+		F464B40F1C7D556400371330 /* HitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitButton.m; sourceTree = "<group>"; };
+		F464B4101C7D556400371330 /* HitTestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestProtocol.h; sourceTree = "<group>"; };
+		F464B4111C7D556400371330 /* HitTestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestTool.h; sourceTree = "<group>"; };
+		F464B4121C7D556400371330 /* HitTestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTestTool.m; sourceTree = "<group>"; };
+		F464B4131C7D556400371330 /* HitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestView.h; sourceTree = "<group>"; };
+		F464B4141C7D556400371330 /* HitTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTestView.m; sourceTree = "<group>"; };
+		F464B4151C7D556400371330 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F464B4161C7D556400371330 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F464B4171C7D556400371330 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F464B4181C7D556400371330 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F464B4191C7D556400371330 /* UIButton+HitAreaExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HitAreaExpand.h"; sourceTree = "<group>"; };
+		F464B41A1C7D556400371330 /* UIButton+HitAreaExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HitAreaExpand.m"; sourceTree = "<group>"; };
+		F464B41B1C7D556400371330 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F464B41C1C7D556400371330 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,61 +79,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F48199D1C0AE47900EB3A02 /* Usege1 */ = {
-			isa = PBXGroup;
-			children = (
-				9FFBEA971C052D6F003BA382 /* SecondViewController.h */,
-				9FFBEA981C052D6F003BA382 /* SecondViewController.m */,
-				9F4819A11C0AE55600EB3A02 /* HitTestProtocol.h */,
-				9F4819A41C0AE63400EB3A02 /* HitTestTool.h */,
-				9F4819A51C0AE63400EB3A02 /* HitTestTool.m */,
-				9FFBEA9A1C052DD8003BA382 /* HitButton.h */,
-				9FFBEA9B1C052DD8003BA382 /* HitButton.m */,
-			);
-			name = Usege1;
-			sourceTree = "<group>";
-		};
-		9F4819A71C0AE85000EB3A02 /* FindHitTest */ = {
-			isa = PBXGroup;
-			children = (
-				9FFBEA771C04B0EC003BA382 /* ViewController.h */,
-				9FFBEA781C04B0EC003BA382 /* ViewController.m */,
-				9FFBEA881C04B133003BA382 /* AView.h */,
-				9FFBEA891C04B133003BA382 /* AView.m */,
-				9FFBEA8B1C04B143003BA382 /* BView.h */,
-				9FFBEA8C1C04B143003BA382 /* BView.m */,
-				9FFBEA8E1C04B150003BA382 /* CView.h */,
-				9FFBEA8F1C04B150003BA382 /* CView.m */,
-				9FFBEA911C04B162003BA382 /* DView.h */,
-				9FFBEA921C04B162003BA382 /* DView.m */,
-				9FFBEA941C04B171003BA382 /* EView.h */,
-				9FFBEA951C04B171003BA382 /* EView.m */,
-			);
-			name = FindHitTest;
-			sourceTree = "<group>";
-		};
-		9F4819A81C0AEF3A00EB3A02 /* Usage2 */ = {
-			isa = PBXGroup;
-			children = (
-				9F4819A91C0AEF7300EB3A02 /* ThirdViewController.h */,
-				9F4819AA1C0AEF7300EB3A02 /* ThirdViewController.m */,
-				9F4819AC1C0AF09000EB3A02 /* HitTestView.h */,
-				9F4819AD1C0AF09000EB3A02 /* HitTestView.m */,
-			);
-			name = Usage2;
-			sourceTree = "<group>";
-		};
-		9F4819AF1C0AF26C00EB3A02 /* Usage3 */ = {
-			isa = PBXGroup;
-			children = (
-				9F4819B01C0AF66300EB3A02 /* ForthViewController.h */,
-				9F4819B11C0AF66300EB3A02 /* ForthViewController.m */,
-				9F4819B31C0AF6D000EB3A02 /* ForthHitTestView.h */,
-				9F4819B41C0AF6D000EB3A02 /* ForthHitTestView.m */,
-			);
-			name = Usage3;
-			sourceTree = "<group>";
-		};
 		9FFBEA651C04B0EC003BA382 = {
 			isa = PBXGroup;
 			children = (
@@ -150,10 +98,7 @@
 		9FFBEA701C04B0EC003BA382 /* HitTestViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9F4819A71C0AE85000EB3A02 /* FindHitTest */,
-				9F48199D1C0AE47900EB3A02 /* Usege1 */,
-				9F4819AF1C0AF26C00EB3A02 /* Usage3 */,
-				9F4819A81C0AEF3A00EB3A02 /* Usage2 */,
+				F464B3FF1C7D556400371330 /* HitTest */,
 				9FFBEA741C04B0EC003BA382 /* AppDelegate.h */,
 				9FFBEA751C04B0EC003BA382 /* AppDelegate.m */,
 				9FFBEA7A1C04B0EC003BA382 /* Main.storyboard */,
@@ -172,6 +117,42 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		F464B3FF1C7D556400371330 /* HitTest */ = {
+			isa = PBXGroup;
+			children = (
+				F464B4001C7D556400371330 /* AView.h */,
+				F464B4011C7D556400371330 /* AView.m */,
+				F464B4021C7D556400371330 /* BView.h */,
+				F464B4031C7D556400371330 /* BView.m */,
+				F464B4041C7D556400371330 /* CView.h */,
+				F464B4051C7D556400371330 /* CView.m */,
+				F464B4061C7D556400371330 /* DView.h */,
+				F464B4071C7D556400371330 /* DView.m */,
+				F464B4081C7D556400371330 /* EView.h */,
+				F464B4091C7D556400371330 /* EView.m */,
+				F464B40A1C7D556400371330 /* ForthHitTestView.h */,
+				F464B40B1C7D556400371330 /* ForthHitTestView.m */,
+				F464B40C1C7D556400371330 /* ForthViewController.h */,
+				F464B40D1C7D556400371330 /* ForthViewController.m */,
+				F464B40E1C7D556400371330 /* HitButton.h */,
+				F464B40F1C7D556400371330 /* HitButton.m */,
+				F464B4101C7D556400371330 /* HitTestProtocol.h */,
+				F464B4111C7D556400371330 /* HitTestTool.h */,
+				F464B4121C7D556400371330 /* HitTestTool.m */,
+				F464B4131C7D556400371330 /* HitTestView.h */,
+				F464B4141C7D556400371330 /* HitTestView.m */,
+				F464B4151C7D556400371330 /* SecondViewController.h */,
+				F464B4161C7D556400371330 /* SecondViewController.m */,
+				F464B4171C7D556400371330 /* ThirdViewController.h */,
+				F464B4181C7D556400371330 /* ThirdViewController.m */,
+				F464B4191C7D556400371330 /* UIButton+HitAreaExpand.h */,
+				F464B41A1C7D556400371330 /* UIButton+HitAreaExpand.m */,
+				F464B41B1C7D556400371330 /* ViewController.h */,
+				F464B41C1C7D556400371330 /* ViewController.m */,
+			);
+			path = HitTest;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -243,21 +224,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FFBEA991C052D6F003BA382 /* SecondViewController.m in Sources */,
-				9FFBEA901C04B150003BA382 /* CView.m in Sources */,
-				9F4819AB1C0AEF7300EB3A02 /* ThirdViewController.m in Sources */,
-				9FFBEA791C04B0EC003BA382 /* ViewController.m in Sources */,
-				9F4819AE1C0AF09000EB3A02 /* HitTestView.m in Sources */,
-				9FFBEA9C1C052DD8003BA382 /* HitButton.m in Sources */,
-				9FFBEA961C04B171003BA382 /* EView.m in Sources */,
-				9F4819A61C0AE63400EB3A02 /* HitTestTool.m in Sources */,
+				F464B4221C7D556400371330 /* ForthHitTestView.m in Sources */,
+				F464B4271C7D556400371330 /* SecondViewController.m in Sources */,
+				F464B41F1C7D556400371330 /* CView.m in Sources */,
+				F464B4231C7D556400371330 /* ForthViewController.m in Sources */,
+				F464B4241C7D556400371330 /* HitButton.m in Sources */,
+				F464B4211C7D556400371330 /* EView.m in Sources */,
+				F464B4281C7D556400371330 /* ThirdViewController.m in Sources */,
+				F464B4291C7D556400371330 /* UIButton+HitAreaExpand.m in Sources */,
+				F464B4251C7D556400371330 /* HitTestTool.m in Sources */,
+				F464B41D1C7D556400371330 /* AView.m in Sources */,
+				F464B42A1C7D556400371330 /* ViewController.m in Sources */,
 				9FFBEA761C04B0EC003BA382 /* AppDelegate.m in Sources */,
-				9FFBEA8A1C04B133003BA382 /* AView.m in Sources */,
+				F464B4261C7D556400371330 /* HitTestView.m in Sources */,
+				F464B4201C7D556400371330 /* DView.m in Sources */,
 				9FFBEA731C04B0EC003BA382 /* main.m in Sources */,
-				9FFBEA931C04B162003BA382 /* DView.m in Sources */,
-				9F4819B21C0AF66300EB3A02 /* ForthViewController.m in Sources */,
-				9FFBEA8D1C04B143003BA382 /* BView.m in Sources */,
-				9F4819B51C0AF6D000EB3A02 /* ForthHitTestView.m in Sources */,
+				F464B41E1C7D556400371330 /* BView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
